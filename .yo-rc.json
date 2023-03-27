@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.15.0",
+    "libraryName": "mtn-club-0803-v-2",
+    "libraryId": "ef480ccd-de85-4957-9aa1-79aeaffab02f",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "MtnClub0803V2",
+    "solutionShortDescription": "MtnClub0803V2 description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "mtnclub-0803-v-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/mtnclub0803V2/Mtnclub0803V2WebPart.js",
+          "manifest": "./src/webparts/mtnclub0803V2/Mtnclub0803V2WebPart.manifest.json"
+        }
+      ]
+    },
+    "mtnclub-0803-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/mtnclub0803/Mtnclub0803WebPart.js",
+          "manifest": "./src/webparts/mtnclub0803/Mtnclub0803WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "Mtnclub0803V2WebPartStrings": "lib/webparts/mtnclub0803V2/loc/{locale}.js",
+    "Mtnclub0803WebPartStrings": "lib/webparts/mtnclub0803/loc/{locale}.js"
+  }
+}

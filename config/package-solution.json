@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "mtn-club-0803-v-2-client-side-solution",
+    "id": "ef480ccd-de85-4957-9aa1-79aeaffab02f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "MtnClub0803V2 description"
+      },
+      "longDescription": {
+        "default": "MtnClub0803V2 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "mtn-club-0803-v-2 Feature",
+        "description": "The feature that activates elements of the mtn-club-0803-v-2 solution.",
+        "id": "a6f1ca2a-1125-4a8a-93c2-684364631e85",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/mtn-club-0803-v-2.sppkg"
+  }
+}
